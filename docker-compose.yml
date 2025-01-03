@@ -10,7 +10,6 @@ services:
     ports:
      - "8787:8787"
     volumes:
-     - ./R/bioconductor_docker:/usr/local/lib/R/host-site-library
      - ./R/data:/home/rstudio
     tty: true
     stdin_open: true
